@@ -1,3 +1,21 @@
+header ul li{
+text-align: center;
+	display: inline;
+	padding-left: 0px;
+	list-style-type: none;
+	font-size: 18px;
+}
+
+footer ul li{
+text-align: center;
+	display: inline;
+	padding-left: 0px;
+	list-style-type: none;
+}
+ 
+hr{
+	color: #808080;
+}
 body {
 	text-align: center;
 	font-family: helvetica neue;
@@ -9,6 +27,11 @@ body {
 }
 h1 {
 	color: white;
+	font-size: 5px;
+}
+
+h2{
+	font-size: 25px;
 }
 
 h3{
@@ -17,4 +40,17 @@ h3{
 a{
 	text-decoration: none;
 	color: #404040;
+}
+p img{
+	float:right;
+	padding-bottom: 20px;
+	padding-left: 15px;
+}
+
+a:hover{
+	color:red;
+}
+a:active{
+	text-decoration: underline;
+	color:red;
 }
